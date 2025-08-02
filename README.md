@@ -99,9 +99,10 @@ Ou use uma GUI para te auxiliar a iniciar a jornada:
 
 - <https://awspolicygen.s3.amazonaws.com/policygen.html>
 
-[1] Dizer que não se pode restringir o acesso do root user é uma simplificação. O root user é o proprietário da conta e
-pode administrá-la, mas, via SCP o root pode ser limitado dentro da organização e, via policies, você também consegue
-proteger recursos de "erros" de um usuário root.
+[1] Dizer que não se pode restringir o acesso do root user (o usuário root de uma conta AWS, que é o proprietário
+principal da conta e tem acesso total a todos os recursos e serviços) é uma simplificação. O root user é o proprietário
+da conta e pode administrá-la, mas, via SCP o root pode ser limitado dentro da organização e, via policies, você também
+consegue proteger recursos de "erros" de um usuário root. Veja [um exemplo em IAM](IAM/README.md).
 
 ## Segurança
 

@@ -10,4 +10,5 @@ Este diretório contém algumas policies que achei interessante destacar. Avalie
 
 [1] Dizer que não se pode restringir o acesso do root user é uma simplificação. O root user é o proprietário da conta e
 pode administrá-la, mas, via SCP o root pode ser limitado dentro da organização e, via policies, você também consegue
-proteger recursos de "erros" de um usuário root.
+proteger recursos de "erros" de um usuário root.\
+O usuário root de uma conta AWS é o proprietário principal da conta e tem acesso total a todos os recursos e serviços.
