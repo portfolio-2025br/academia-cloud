@@ -1,0 +1,45 @@
+# ################################################################################
+#  Copyright (c) 2025  Claudio André <portfolio-2025br at claudioandre.slmail.me>
+#              ___                _      ___       _
+#             (  _`\             ( )_  /'___)     (_ )  _
+#             | |_) )  _    _ __ | ,_)| (__   _    | | (_)   _
+#             | ,__/'/'_`\ ( '__)| |  | ,__)/'_`\  | | | | /'_`\
+#             | |   ( (_) )| |   | |_ | |  ( (_) ) | | | |( (_) )
+#             (_)   `\___/'(_)   `\__)(_)  `\___/'(___)(_)`\___/'
+#
+# This program comes with ABSOLUTELY NO WARRANTY; express or implied.
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, as expressed in version 2, seen at
+# https://www.gnu.org/licenses/gpl-2.0.html
+# ################################################################################
+# Eventos e erros para ignorar no Trivy
+# More info at https://github.com/portfolio-2025br/academia-cloud
+
+# São arquivos de exemplo:
+# - eu não posso habilitar recursos caros e avançados nos exemplos;
+# - eles se tornariam proibitivos, até para experimentação.
+misconfigurations:
+  - id: AVD-AWS-0025
+  - id: AVD-AWS-0052
+  - id: AVD-AWS-0053
+  - id: AVD-AWS-0054
+  - id: AVD-AWS-0086
+  - id: AVD-AWS-0087
+  - id: AVD-AWS-0088
+  - id: AVD-AWS-0088
+  - id: AVD-AWS-0089
+  - id: AVD-AWS-0090
+  - id: AVD-AWS-0091
+  - id: AVD-AWS-0093
+  - id: AVD-AWS-0094
+  - id: AVD-AWS-0095
+  - id: AVD-AWS-0104
+  - id: AVD-AWS-0107
+  - id: AVD-AWS-0124
+  - id: AVD-AWS-0130
+  - id: AVD-AWS-0132
+  - id: AVD-AWS-0164
+  - id: AVD-AWS-0178
+  - id: AVD-AWS-0345
