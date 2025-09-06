@@ -1,6 +1,6 @@
 # Portfólio em Cloud
 
-Este repositório contém soluções Cloud que eu desevolvi ou adaptei. Portanto, serve para demonstrar minha vivência nas
+Este repositório contém soluções Cloud que eu desenvolvi ou adaptei. Portanto, serve para demonstrar minha vivência nas
 plataformas de nuvem, especialmente, AWS.
 
 Foi criado para armazenar projetos-exemplo que sirvam para discutir, avaliar, estudar ou demonstrar boas práticas em
